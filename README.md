@@ -1,5 +1,7 @@
 # Food Image Classification System
 
+Abdul Rafay & Emily Yang
+
 An end-to-end system for classifying food images and displaying nutritional information using TensorFlow and React.
 
 ## Features
