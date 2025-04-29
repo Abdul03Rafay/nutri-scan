@@ -12,10 +12,10 @@ import shutil
 import tensorflow as tf
 import tensorflowjs as tfjs
 
-# Update these paths to match your file locations
-MODEL_PATH = '/Users/abdulrafay/Desktop/Nutriscan/models/food_classifier_best.h5'
-TFJS_OUTPUT_DIR = '/Users/abdulrafay/Desktop/Nutriscan/food-classifier-frontend/public/models/food_classifier_tfjs'
-CLASS_INDICES_PATH = '/Users/abdulrafay/Desktop/Nutriscan/models/class_indices.json'
+# Paths based on local directories.
+MODEL_PATH = '/Users/...'
+TFJS_OUTPUT_DIR = '/Users/.../food-classifier-frontend/public/models/food_classifier_tfjs'
+CLASS_INDICES_PATH = '/Users/.../models/class_indices.json'
 
 def create_simple_model():
     """Create a simple model for testing"""
