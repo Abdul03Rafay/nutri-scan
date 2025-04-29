@@ -1,143 +1,70 @@
-# nutri-scan
+# Getting Started with Create React App
 
-**Emily Yang, Abdul Rafay**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-**Collect images of food items and train a neural network to recognize each and convey related nutritional information e.g. calories, % sugar.**
+In the project directory, you can run:
 
-### **Methods:**
+### `npm start`
 
-- **Model Architecture:** Employ a **CNN-based object detection mode**l to identify food objects.
-- **Transfer Learning:** Experiment with pre-trained models; **ResNet**, **VGG16**, **EfficientNet, etc**
-- **Data Augmentation:** Try to improve the model's robustness and generalization.
-- **Nutritional Data Integration:** Post classification, food item will be **mapped to it’s nutritional facts**.
-- Though unlikely, we may explore self-supervised or semi-supervised learning if labeled data is limited.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### **Data Sources:**
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-We plan to use from following publicly available datasets:
+### `npm test`
 
-Image Classification
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Google Open Images Dataset:** https://storage.googleapis.com/openimages/web/index.html — General
-- **ImageNet:** https://www.image-net.org/ — General Image Library
-- **Food-101** – 101 food categories, 101,000 images (1000 per category) https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/
-- **UECFOOD256** – 256 food categories, Japanese dishes, bounding boxes included
-    
-    https://huggingface.co/datasets/tiennv/uecfood256
-    
-- **VIREO Food-172** – 172 categories, 110k images, mostly Chinese dishes
-    
-    https://fvl.fudan.edu.cn/dataset/vireofood172/list.htm
-    
-- **Recipe1M+** – Food images with associated recipes, ingredients https://pic2recipe.csail.mit.edu/
+### `npm run build`
 
-Nutrition Facts Mapping
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **USDA FoodData Central** — offers detailed nutrient profiles for a wide range of foods, including branded and generic items. https://fdc.nal.usda.gov/ — API Available
-- **Open Food Facts** — database of food products from around the world, providing information on ingredients, nutritional content. https://world.openfoodfacts.org/data — API Available
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### **Code resources:**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**CNN Implementation Resources**
+### `npm run eject`
 
-- https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
-- https://pytorch.org/hub/pytorch_vision_resnet/
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Transfer Learning Tutorials**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **PyTorch Transfer Learning Guide (Official)** https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
-- **TensorFlow Transfer Learning with EfficientNet** https://www.tensorflow.org/tutorials/images/transfer_learning
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Data Augmentation Libraries**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- **Albumentations**: Powerful image augmentation library with easy PyTorch and TensorFlow integration https://albumentations.ai/docs/
+## Learn More
 
-**Object Detection Frameworks**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- **Detectron2 (Facebook AI)**: High-performance object detection toolkit (for future expansion to object detection tasks like multiple foods per image) https://github.com/facebookresearch/detectron2
-- **YOLOv5 (Ultralytics)**: Pre-trained object detection models, lightweight and fast https://github.com/ultralytics/yolov5
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**Food Recognition End-to-End Examples for Reference**
+### Code Splitting
 
-- **Kaggle: Food-101 Classification Using CNN**
-- **FastAI Food Classifier Tutorial**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### **What's new? — In addition to training the model to be able to classify food items, we will go further to provide relevant nutritional information as well.**
+### Analyzing the Bundle Size
 
-### **Project Implementation Timeline:**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-| **Mar 25:** | Data collection and preprocessing completed |
-| --- | --- |
-| **April 10:** | Initial model training and baseline performance evaluation |
-| **April 20:** | Experimentations with optimizations (data aug, model tuning) |
-| **April 30:** | Final model evaluation, report writing, and presentation preparation |
+### Making a Progressive Web App
 
-### **Proposed demonstration/evaluation.**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-**Classification Accuracy:** evaluate accuracy, precision, and recall on test datasets.
+### Advanced Configuration
 
-**Generalization Testing:** Test performance on unseen data for cross-dataset generalization.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**AI-Generated Image Evaluation:** Evaluate model’s performance on AI generated food images.
+### Deployment
 
-**Nutrition Fact Mapping Evaluation:** Post classification, evaluate the proposed nutrition fact with actual data.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## **Experiments.**
+### `npm run build` fails to minify
 
-1.	**Model Architecture Variations**
-
-- **Baseline CNN vs. Transfer Learning Models**: Compare a custom fine-tuned CNN model against pre-trained models like ResNet50, VGG16, and EfficientNet to evaluate transfer learning benefits.
-- **Depth and Complexity Adjustments**: Vary the number of dense layers, convolutional layers, and dropout rates to measure overfitting, underfitting, and generalization impact.
-- **Output Layer Extensions**: Test different ways to encode the nutritional information output, either as direct regression values or via lookup tables post-classification.
-
-2.	**Data Augmentation Strategies**
-
-Experiment with - **Rotation, flipping, scaling, color jitter, brightness adjustments, gaussian noise, blurring**
-
-**Conduct ablation studies to evaluate performance changes when:**
-
-- All augmentations applied
-
-- Subsets applied
-
-- No augmentation applied
-
-**Measure classification accuracy and generalization robustness for each setup.**
-
-3.	**Training Data Size Variation**
-
-Evaluate model performance when trained on:
-
-- Full dataset
-- Reduced datasets (50%, 25% of total data) to simulate limited labeled data scenarios.
-- Observe how training size affects accuracy and overfitting behavior.
-
-### **Appendix.**
-
-**Food Image Classification with Convolutional Neural Networks** by Malina Jiang from Stanford University
-
-- https://cs230.stanford.edu/projects_fall_2019/reports/26233496.pdf
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
-UPDATED: Regression CNN to predict nutrition information directly from the input image 
-
-Dataset: https://github.com/google-research-datasets/Nutrition5k
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
