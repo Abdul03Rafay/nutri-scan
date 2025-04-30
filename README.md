@@ -4,6 +4,11 @@
 
 An end-to-end system for classifying food images and displaying nutritional information using TensorFlow and React.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312" width="400"/>
+</p>
+
+
 ## Features
 
 - Classify 101 different types of food from images
@@ -19,9 +24,7 @@ The project consists of two main parts:
 1. **Machine Learning (ML)**: Python code for training and converting the model # Our main focus
 2. **Frontend**: React application for user interaction and displaying results # A good edition for replicability; incomplete as of now.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312" width="400"/>
-</p>
+
 
 ## Prerequisites
 
