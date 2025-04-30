@@ -1,4 +1,4 @@
-# Food Image Classification System
+# Food Image Classification System + Nutrition Info.
 
 ### Abdul Rafay & Emily Yang
 
