@@ -81,8 +81,6 @@ npm install
 npm start
 ```
 
-The application will be available at http://localhost:3000
-
 ## Using the Application
 
 1. Open the application in your web browser
