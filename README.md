@@ -38,6 +38,10 @@ The project consists of two main parts:
 - Node.js 14+
 - npm or yarn
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312" width="400"/>
+</p>
+
 ## Installation
 
 ### Step 1: Set Up Python Environment for Training
