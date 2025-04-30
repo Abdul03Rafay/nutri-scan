@@ -2,16 +2,11 @@
 
 ### Abdul Rafay & Emily Yang
 
-<p align="center">
-<img width="642" alt="Screenshot 2025-04-30 at 7 47 00 PM" src="https://github.com/user-attachments/assets/a69c762f-80ad-43e1-ad51-8c90a4cfc46d" />
-</p>
-
 An end-to-end system for classifying food images and displaying nutritional information using TensorFlow and React.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312" width="400"/>
+<img width="642" alt="Screenshot 2025-04-30 at 7 47 00 PM" src="https://github.com/user-attachments/assets/a69c762f-80ad-43e1-ad51-8c90a4cfc46d" />
 </p>
-
 
 ## Features
 
@@ -27,7 +22,6 @@ The project consists of two main parts:
 
 1. **Machine Learning (ML)**: Python code for training and converting the model # Our main focus
 2. **Frontend**: React application for user interaction and displaying results # A good edition for replicability; incomplete as of now.
-
 
 
 ## Prerequisites
