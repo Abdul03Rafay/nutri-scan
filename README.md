@@ -114,9 +114,7 @@ The application will be available at http://localhost:3000
 
 ### Enhancing the Frontend
 
-1. Add user accounts to save classification history
-2. Implement meal planning features based on classified foods
-3. Add calorie tracking functionality
+1. Have the trained model loaded properly
 
 ## Acknowledgments
 
