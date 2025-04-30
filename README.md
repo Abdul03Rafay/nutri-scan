@@ -19,8 +19,7 @@ The project consists of two main parts:
 1. **Machine Learning (ML)**: Python code for training and converting the model # Our main focus
 2. **Frontend**: React application for user interaction and displaying results # A good edition for replicability; incomplete as of now.
 
-![Screenshot 2025-04-28 at 3 59 41 PM](https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312)
-
+<img src="https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312" width="400"/>
 
 ## Prerequisites
 
