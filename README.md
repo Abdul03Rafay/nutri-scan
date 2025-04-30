@@ -2,6 +2,10 @@
 
 ### Abdul Rafay & Emily Yang
 
+<p align="center">
+<img width="642" alt="Screenshot 2025-04-30 at 7 47 00 PM" src="https://github.com/user-attachments/assets/a69c762f-80ad-43e1-ad51-8c90a4cfc46d" />
+</p>
+
 An end-to-end system for classifying food images and displaying nutritional information using TensorFlow and React.
 
 <p align="center">
@@ -57,9 +61,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 cd ml
 pip install -r requirements.txt
 ```
-<p align="center">
-<img width="642" alt="Screenshot 2025-04-30 at 7 47 00 PM" src="https://github.com/user-attachments/assets/a69c762f-80ad-43e1-ad51-8c90a4cfc46d" />
-</p>
 
 ### Step 2: Train and Convert the Model
 
