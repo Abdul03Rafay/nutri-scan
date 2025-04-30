@@ -78,7 +78,7 @@ npm install
 # Start the development server
 npm start
 ```
-Once deployed it will have something like:
+Once deployed it will look like:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bb1746de-e92d-43ea-a01b-f8b913ff0312" width="400"/>
